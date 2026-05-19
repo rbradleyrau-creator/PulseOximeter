@@ -5,7 +5,7 @@
 [X] LCD SMALL <br>
 [X] Zif FFC (flexible flat cable) connector for LCD <br>
 [X] PhotoDiode (SFH 2704) <br>
-[X] LEDs <br> (SFH 7018B)
+[X] LEDs (SFH 7018B) <br>
 [-] Power Supply <br>
 [-] Small rechargable battery <br>
 [-] USB Port <br>
