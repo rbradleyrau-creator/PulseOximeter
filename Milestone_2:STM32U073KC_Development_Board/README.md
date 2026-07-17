@@ -10,4 +10,6 @@
 
 - [STM32U073KCU6](https://www.st.com/resource/en/datasheet/stm32u073c8.pdf) <br>
 - [Buck Converter - LM3676](https://www.ti.com/lit/ds/symlink/lm3676.pdf?ts=1784331233319&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM3676) <br>
+- [Battery Charger IC - TPB4056B](https://static.3peak.com/res/doc/ds/Datasheet_TPB4056B.pdf) <br>
+
 
