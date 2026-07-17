@@ -1,3 +1,8 @@
+# Personal Pulse Oximeter
+
+This repository contains the schematics, designs, and other information regarding the design of a personal Pulse Oximeter. As part of the design process, the overal pulse oximeter design was broken up into three small milestones to allow for easier testing and prototyping before moving on to a final design. More information on each of these milestones and the final design can be found via the links below.
+
+
 # Needed Components
 
 Four milestones
