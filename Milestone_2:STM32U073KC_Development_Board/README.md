@@ -8,4 +8,4 @@
 
 ## List of Major Components/Datasheets
 
-- STM32U073KCU6 <br>
+- [STM32U073KCU6](https://www.st.com/resource/en/datasheet/stm32u073c8.pdf) <br>
