@@ -6,4 +6,6 @@
 <br> <br>
   Other features include: Boot and Reset buttons and LED indicators for charging, charge standby, and USB connection. 
 
-## List of Components/Datasheets
+## List of Major Components/Datasheets
+
+- STM32U073KCU6 <br>
