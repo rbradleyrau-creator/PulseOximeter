@@ -12,7 +12,13 @@ This repository contains the schematics, designs, and other information regardin
 
   In this milestone, the pins of an STM32UO73KCU6 is connected to various headers for use in testing. In addition to the processor, the PCB also includes USB 2.0, 3.3V Buck Converter, and optional Battery power/charging. The goal of this milestone is to begin writing programs to the STM32 via USB/SWD for use in the final design and to determine the efficiency in of various batteries in powering the system.  
 
-## Milestone 3: LCD Display
+## Milestone 3: Display
+
+  The main goal of this milestone is to write firmware for the STM32 that displays information to an IPS LCD Display. To begin writing this firmware, a 13P FFC breakout board was developed to allow the previously designed development board to interface with the chosen display.
+
+# Final Design
+
+  The final design for this project will include an SpO2/HR sensor connected to an STM32. The STM32 will read data from the sensor and display it to the chosen display. The system will incorporated a battery for wireless use with a USB port for charging. The system will also enter deep sleep when not in use which is controlled via an ON/OFF switch. The display will feature both the heartrate readings, SpO2 readings, and the remaining battery life. All the previously mentioned parts are combined into a single, double-sided PCB and encased inside a 3D printed enclosure. This enclosure will include padding just below the sensor along with an adjustable band allowing the device to be mounted to a finger. 
 
 # Needed Components
 
