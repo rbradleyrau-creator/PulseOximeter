@@ -4,6 +4,9 @@
   <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
   <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
   <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
+  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
+  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
+  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
 </div>
 
   This PCB Design utilizes an STM32U073KCU6 as its central processor. The board involes a USB header which enables Full Speed USB 2.0 communication with ESD protection and filtered 5 volts of potential throughout the board. This voltage is connected to an LM3676 buck converter that steps the voltage down to 3.3V. Additionally, the 5V provided by a USB connection is connected to a TPB4056B Battery Charging IC to charge a connected battery. Power for the board can also (optionally) be provided via a battery. For this design, a 3.7V Li-Polymer battery is recommended. A connected battery can continue to provide power to the system up until the voltage accross its terminals reaches a minimum of 3.0V. However, while the STM32 will continue to operate at this voltage, care should be taken to ensure that connected peripherals can also operate at this voltage. 
