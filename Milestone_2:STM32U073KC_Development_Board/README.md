@@ -1,12 +1,22 @@
 # STM32U073KC Development Board
-
-<div style="display: flex; overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap;">
-  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
-  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
-  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
-  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
-  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
-  <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" />
+<div align="center">
+  <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" height="180" />
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_BottomSide.png" width="400" height="180" />
+  </div>
+  <br>
+  
+  <details>
+    <summary><b>Click here to expand Coppor Layers</b></summary>
+    <br>
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_TopLayer.png" width="100%">
+    <hr>
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_InLayer1.png" alt="SInner Layer 1" width="100%">
+    <hr>
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_InLayer2.png" alt="Inner Layer 2" width="100%">
+    <hr>
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_BottomLayer.png" alt="Bottom Layer" width="100%">
+  </details>
 </div>
 
   This PCB Design utilizes an STM32U073KCU6 as its central processor. The board involes a USB header which enables Full Speed USB 2.0 communication with ESD protection and filtered 5 volts of potential throughout the board. This voltage is connected to an LM3676 buck converter that steps the voltage down to 3.3V. Additionally, the 5V provided by a USB connection is connected to a TPB4056B Battery Charging IC to charge a connected battery. Power for the board can also (optionally) be provided via a battery. For this design, a 3.7V Li-Polymer battery is recommended. A connected battery can continue to provide power to the system up until the voltage accross its terminals reaches a minimum of 3.0V. However, while the STM32 will continue to operate at this voltage, care should be taken to ensure that connected peripherals can also operate at this voltage. 
