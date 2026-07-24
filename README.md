@@ -20,22 +20,4 @@ This repository contains the schematics, designs, and other information regardin
 
 # Final Design
 
-  The final design for this project will include an SpO2/HR sensor connected to an STM32. The STM32 will read data from the sensor and display it to the chosen display. The system will incorporated a battery for wireless use with a USB port for charging. The system will also enter deep sleep when not in use which is controlled via an ON/OFF switch. The display will feature both the heartrate readings, SpO2 readings, and the remaining battery life. All the previously mentioned parts are combined into a single, double-sided PCB and encased inside a 3D printed enclosure. This enclosure will include padding just below the sensor along with an adjustable band allowing the device to be mounted to a finger. 
-
-# Needed Components
-
-Four milestones
-- Need to make the pulse oximetry work
-- Need to make a microcontroller to test battery and selected STM32
-- Need to test LCD Display
-- Need to combine into one final PCB
-
-[X] Pulse Oximetry Chip (MAX86141) <br>
-[X] MicroProcessor (STM32U073KCU6....) <br>
-[X] LCD SMALL <br>
-[X] Zif FFC (flexible flat cable) connector for LCD <br>
-[X] PhotoDiode (SFH 2704) <br>
-[X] LEDs (SFH 7018B) <br>
-[X] Power Supply (Using an LDO) <br>
-[X] Small rechargable battery <br>
-[X] USB Port <br>
+  The final design for this project will include an SpO2/HR sensor connected to an STM32. The STM32 will read data from the sensor and display it to the chosen display. The system will incorporated a battery for wireless use with a USB port for charging. The system will also enter deep sleep when not in use which is controlled via an ON/OFF switch. The display will feature both the heartrate readings, SpO2 readings, and the remaining battery life. All the previously mentioned parts are combined into a single, double-sided PCB and encased inside a 3D printed enclosure. This enclosure will include padding just below the sensor along with an adjustable band allowing the device to be mounted to a finger.
