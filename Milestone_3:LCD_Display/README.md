@@ -1,4 +1,4 @@
-# STM32U073KC Development Board
+# (DT010ATFT) LCD Display
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
     <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" height="180" />
@@ -19,11 +19,11 @@
   </details>
 </div>
 
-  This PCB Design utilizes an STM32U073KCU6 as its central processor. The board involes a USB header which enables Full Speed USB 2.0 communication with ESD protection and filtered 5 volts of potential throughout the board. This voltage is connected to an LM3676 buck converter that steps the voltage down to 3.3V. Additionally, the 5V provided by a USB connection is connected to a TPB4056B Battery Charging IC to charge a connected battery. Power for the board can also (optionally) be provided via a battery. For this design, a 3.7V Li-Polymer battery is recommended. A connected battery can continue to provide power to the system up until the voltage accross its terminals reaches a minimum of 3.0V. However, while the STM32 will continue to operate at this voltage, care should be taken to ensure that connected peripherals can also operate at this voltage. 
+  The final design will feature heartrate, SpO2, and battery life readings on an LCD Display. The goal of this milestone is to: A) create a breakout board that allows the chosen display to interface with the microcontroller developed in the previous milestone, and B) develop firmware for displaying the output of various sensors. To begin this process, a breakout board was made that converts a 13 position FFC (flexible flat cable) into a breakout of 13 pins, plus one extra for shield connection. This board can be seen below.
 <br> <br>
-  Power to the system will be provided via USB if one is connected, otherwise it will be provided via the connected battery. This feature is achieved by using a Schottky diode in addition to a P-channel MOSFET. Once the USB is connected, the 5V provided to the MOSFET's Gate will prevent current flow from the source to the drain, essentially disconnecting the battery from the buck converter. When the USB is disconnected, backflow to the 5V line (which is now grounded) is prevented via the previously mentioned diode.
+  The final step of this process required that LCD libraries be installed and utilized to display the intended data. To do this, research had to be conducted to find suitable libraries and learn their implementations. Once this information was finalized, the library would be implemented into a firmware program that will be used in the final design. 
 <br> <br>
-  Other features include: Boot and Reset buttons and LED indicators for charging, charge standby, and USB connection. 
+  As of July 23rd, 2026, this milestone is still a work in progress.
 
 ## List of Major Components/Datasheets
 
