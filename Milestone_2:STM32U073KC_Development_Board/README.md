@@ -35,7 +35,9 @@
 - [ESD Diodes - USBLC6-2SC6Y](https://www.st.com/resource/en/datasheet/usblc6-2sc6y.pdf) <br>
 - [USB Connector - 2171790001](https://www.molex.com/en-us/products/part-detail/2171790001?display=pdf&utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API?utm_source=M2X&utm_medium=api&utm_campaign=api&utm_id=M2X_API) <br>
 - [Battery Connector - S2B-PH-SM4-TB](https://www.jst-mfg.com/product/pdf/eng/ePH.pdf) <br>
-<br>
-[<-- Return to Project Page](https://github.com/rbradleyrau-creator/PulseOximeter/tree/main)
+
+***
+
+### [Return to Project Page](https://github.com/rbradleyrau-creator/PulseOximeter/tree/main) <br>
 
 
