@@ -7,7 +7,7 @@
   <br>
   
   <details>
-    <summary><b>Click here to expand Coppor Layers</b></summary>
+    <summary><b>Click here to expand Copper Layers</b></summary>
     <br>
     <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_TopLayer.png" width="100%">
     <hr>
