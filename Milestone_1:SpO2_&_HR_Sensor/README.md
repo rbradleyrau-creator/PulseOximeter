@@ -27,7 +27,7 @@
 
 ## List of Major Components/Datasheets
 
-- [MAX86141]([https://www.st.com/resource/en/datasheet/stm32u073c8.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/max86140-max86141.pdf)) <br>
+- [MAX86141](https://www.analog.com/media/en/technical-documentation/data-sheets/max86140-max86141.pdf) <br>
 - [LDO - LP5907](https://www.ti.com/lit/ds/symlink/lp5907.pdf) <br>
 - [LED(s) - SFH 7018B](https://www.mouser.com/datasheet/3/5912/1/SFH_7018B_EN.pdf) <br>
 - [Photodiode - SFH 2704](https://www.mouser.com/datasheet/3/5912/1/SFH_2704_EN.pdf) <br>
