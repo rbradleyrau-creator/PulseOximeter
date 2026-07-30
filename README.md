@@ -5,6 +5,8 @@ This repository contains the schematics, designs, and other information regardin
 ## Milestone 1: SpO2 & HR Sensor 
 
   This milestone involves creating a breakout board that isolates the sensor to be used in the final system. The implementation includes an Optical Pulse Oximeter/Heart-Rate Sensor and a linear voltage regular connected to headers. Through this, an external processor can be programmed to interface with the sensor and testing can be performed to determine the best layout in the final design. This board will also be used to write firmware for the final design. 
+
+  [Read More](https://github.com/rbradleyrau-creator/PulseOximeter/tree/main/Milestone_1%3ASpO2_%26_HR_Sensor)
   
 ## Milestone 2: STM32UO73KC Development Board 
 
