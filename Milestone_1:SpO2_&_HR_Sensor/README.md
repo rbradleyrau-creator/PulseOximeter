@@ -24,6 +24,8 @@
 <br> <br>
   The board can be interfaced with via the pin headers on the left-hand side. The 3.3V pin provides power to the aforementioned LDO, LED, and LED drivers (in the MAX86141) and 
   the Ground pin provided a common ground between the internal and external systems. The top 4 pins (CSB, SDI, SDO, SCLK) provide access to the sensor's readings via SPI.
+<br> <br>
+  As of July 30th, 2026, this milestone is still a work in progress as firmware is written.
 
 ## List of Major Components/Datasheets
 
