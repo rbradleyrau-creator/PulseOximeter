@@ -1,21 +1,21 @@
 # MAX86141 Breakout Board
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" height="180" />
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_BottomSide.png" width="400" height="180" />
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_1%3ASpO2_%26_HR_Sensor/Drawings%2BSchematics/HR_SpO2_Sensor_3D_Topside.png" width="300" height="300" />
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_1%3ASpO2_%26_HR_Sensor/Drawings%2BSchematics/HR_SpO2_Sensor_3D_Bottomside.png" width="300" height="282" />
   </div>
   <br>
   
   <details>
     <summary><b>Click here to expand Copper Layers</b></summary>
     <br>
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_TopLayer.png" width="100%">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_1%3ASpO2_%26_HR_Sensor/Drawings%2BSchematics/HR_SpO2_Sensor_TopLayer.png" width="100%">
     <hr>
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_InLayer1.png" alt="Inner Layer 1" width="100%">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_1%3ASpO2_%26_HR_Sensor/Drawings%2BSchematics/HR_SpO2_Sensor_InLayer1.png" alt="Inner Layer 1" width="100%">
     <hr>
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_InLayer2.png" alt="Inner Layer 2" width="100%">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_1%3ASpO2_%26_HR_Sensor/Drawings%2BSchematics/HR_SpO2_Sensor_InLayer2.png" alt="Inner Layer 2" width="100%">
     <hr>
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_BottomLayer.png" alt="Bottom Layer" width="100%">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_1%3ASpO2_%26_HR_Sensor/Drawings%2BSchematics/HR_SpO2_Sensor_BottomLayer.png" alt="Bottom Layer" width="100%">
   </details>
 </div>
 
