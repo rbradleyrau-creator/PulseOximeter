@@ -7,7 +7,7 @@
  * @version 1.0
  * @date August 27th, 2026
  *
- * @see https://controllerstech.com/terms-conditions/
+ * @see https://controllerstech.com/st7735-1-8-tft-display-with-stm32/#goog_rewarded
  */
 
 #ifndef GRAPHICS_H
