@@ -38,6 +38,11 @@
 - [LED(s) - SFH 7018B](https://www.mouser.com/datasheet/3/5912/1/SFH_7018B_EN.pdf) <br>
 - [Photodiode - SFH 2704](https://www.mouser.com/datasheet/3/5912/1/SFH_2704_EN.pdf) <br>
 
+## List of External Resources
+
+- [HR Algorithm Paper](https://ieeexplore.ieee.org/abstract/document/7138573) <br>
+- [Desmos HR Data Analysis](https://www.desmos.com/calculator/z13ruce9kt) <br>
+
 ***
 
 ### [Return to Project Page](https://github.com/rbradleyrau-creator/PulseOximeter/tree/main) <br>
