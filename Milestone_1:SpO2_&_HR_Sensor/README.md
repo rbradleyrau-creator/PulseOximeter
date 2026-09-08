@@ -25,7 +25,11 @@
   The board can be interfaced with via the pin headers on the left-hand side. The 3.3V pin provides power to the aforementioned LDO, LED, and LED drivers (in the MAX86141) and 
   the Ground pin provided a common ground between the internal and external systems. The top 4 pins (CSB, SDI, SDO, SCLK) provide access to the sensor's readings via SPI.
 <br> <br>
-  As of July 30th, 2026, this milestone is still a work in progress as firmware is written.
+  In the prototyping phase, these pins were connected to the STM32 breakout board developed in Milestone 2 in order to develop firmware that could utilize the MAX86141. After testing 
+  several different MAX configurations, the best configuration for the final design's low power application was found to be 128 samples per second with an averaging of 2 (so 64 data samples
+  per second). For Sp02, the led driver current to the red and IR led were adjusted until their ratio provided accurate readings. For HR, the sensor data was tested with multiple algorithms
+  before settling on an implementation developed by Raquel Gutiérrez-Rivas and colleagues. This algorithm was then applied to samples of data for the prototype tests and was adjusted until it 
+  met a reasonable level of accuracy. 
 
 ## List of Major Components/Datasheets
 
