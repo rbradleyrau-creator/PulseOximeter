@@ -20,6 +20,6 @@ This repository contains the schematics, designs, and other information regardin
 
   [Read More](https://github.com/rbradleyrau-creator/PulseOximeter/tree/main/Milestone_3%3ALCD_Display)
 
-# Final Design
+# Final Design [WIP]
 
   The final design for this project will include an SpO2/HR sensor connected to an STM32. The STM32 will read data from the sensor and display it to the chosen display. The system will incorporated a battery for wireless use with a USB port for charging. The system will also enter deep sleep when not in use which is controlled via an ON/OFF switch. The display will feature both the heartrate readings, SpO2 readings, and the remaining battery life. All the previously mentioned parts are combined into a single, double-sided PCB and encased inside a 3D printed enclosure. This enclosure will include padding just below the sensor along with an adjustable band allowing the device to be mounted to a finger.
