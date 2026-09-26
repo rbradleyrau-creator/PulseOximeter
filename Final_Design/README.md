@@ -1,8 +1,8 @@
 # Final Design
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_3D_Topside.png" width="400" height="240" />
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_3D_BottomSide.png" width="400" height="240" />
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_3D_Topside.png" width="400" height="260" />
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_3D_BottomSide.png" width="400" height="260" />
   </div>
   <br>
   
