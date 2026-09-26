@@ -19,19 +19,29 @@
   </details>
 </div>
 
+### Project Overview & Features
+
 The final design consists of two major parts:
   - A PCBA containing each critical component
   - A 3D Modeled Enclosure to house the PCBA and other electronics
 
-  The 
+  The PCB for the pulse oximeter combines all of the previous features into a singular board, with the STC3115AIQT as an exception. The board consists of an STM32U073KC processor connected to three peripherals: the STC3115AIQT fuel gauge over I2C, the MAX86141 HR/Sp02 sensor over SPI1, and an FFC connector over SPI3 for interfacing with the DT010ATFT LCD display. In addition, the processor is also connected to USB 2.0 and has SWD, boot, and reset access via exposed plated through holes. Aside from those connections, the board operates on 3.3V which is provided by the LM3676 buck converter. This component is supplied with anywhere from 5.5V (USB) to 3.0V (Battery), all of which are valid voltages for the LM3676 and a large factor for why the part was chosen. The board also includes MCP73831T battery charger which charges the battery whilst the USB is connected. 
+  <br><br>
+  The enclosure that houses this PCB measures at 3cm wide, 6cm long, and approximately 2cm tall and is designed for 3D printing. It is separated into two pieces that contain four dowels for a secure connection, however, the strength of this connection varies from printer to printer. In addition, the enclosure provides four openings in its casing: one at the bottom for the LED and photodiodes of the sensor, one at the top for the LCD Display, one on the side for the ON/OFF button, and one in the rear for USB port access. 
 
-  The enclosure measures at 3cm wide, 6cm long, and approximately 2cm tall and is designed for 3D printing. It is separated into two pieces that contain four dowels for a secure connection, however, the strength of this connection varies from printer to printer. In addition, the enclosure provides four openings in its casing: one at the bottom for the LED and photodiodes of the sensor, one at the top for the LCD Display, one on the side for the ON/OFF button, and one in the rear for USB port access. 
-  
-  This PCB Design utilizes an STM32U073KCU6 as its central processor. The board involes a USB header which enables Full Speed USB 2.0 communication with ESD protection and filtered 5 volts of potential throughout the board. This voltage is connected to an LM3676 buck converter that steps the voltage down to 3.3V. Additionally, the 5V provided by a USB connection is connected to a TPB4056B Battery Charging IC to charge a connected battery. Power for the board can also (optionally) be provided via a battery. For this design, a 3.7V Li-Polymer battery is recommended. A connected battery can continue to provide power to the system up until the voltage accross its terminals reaches a minimum of 3.0V. However, while the STM32 will continue to operate at this voltage, care should be taken to ensure that connected peripherals can also operate at this voltage. 
-<br> <br>
-  Power to the system will be provided via USB if one is connected, otherwise it will be provided via the connected battery. This feature is achieved by using a Schottky diode in addition to a P-channel MOSFET. Once the USB is connected, the 5V provided to the MOSFET's Gate will prevent current flow from the source to the drain, essentially disconnecting the battery from the buck converter. When the USB is disconnected, backflow to the 5V line (which is now grounded) is prevented via the previously mentioned diode.
-<br> <br>
-  Other features include: Boot and Reset buttons and LED indicators for charging, charge standby, and USB connection. 
+### Design Process
+
+  The main schematic design of the PCB is largely a combination of the previous three boards into one singular board, however with some exceptions. Firstly, the TPB4056B battery charger was replaced with the MCP73831T. This was due to the fact that the TPB took up significant area on the PCB and was no longer available at the selected PCB manufacturer. A second change was the inclusion of the STC3115AIQT fuel gauge. This part was included in order to better gauge the battery life of the attached 3.7V Li-ion battery, since the discharge curve of Li-ion batteries are largely non-linear. One final design decision was the inclusion of plated through-holes for debugging. The decision was made in order to debug the newly included component and to avoid additional costs incurred due to additional manufacturing. 
+  <br><br>
+	For layout, the design was based around a centralized STM32 with the external connectors (USB, PH connector, ON/OFF switch, etc) being positioned in a way that made sense with the intended device enclosure. The board stack up was 4 layers with the top and bottom layers acting as signal layers and the internal layers as ground planes (with a few exceptions). One major design challenge that came up in the making of this board was the 3.3V plane that existed on the bottom of the board. Due to the large number of interconnections, this plane was broken up in several areas leading to vias being omitted from the plane or being connected by thin copper polygons. To fix this issue, components were moved to areas where they could source higher current in addition to a bridge through layer 2 to connect two un-connected polygons in the plane.
+  <br><br>
+	A second challenge in the design came from the placement of the LM3676 buck converter in relation to the USB data lines. Due to the required placement of the PH connector, the buck converter was located in the bottom left corner. To prevent the high-frequency switching from affecting sensitive components,  sensitive ICs like the MAX86141 IC were placed in the opposite corner of the board. However, the data lines of the USB could not be relocated. To minimize the effect this switching would have on these lines, the STM32 was shifted upward to allow the maximum distance between the data lines and the offending trace. This distance ended up being 5 times larger than the trace width of the data lines, providing satisfactory protection for full-speed USB.
+  <br><br>
+	A third challenge that came up in the design was the routing of SPI. Originally, the board was designed to operate with only one MOSI & MISO. However, this would have required a star connection scheme, resulting in disconnected ends causing reflections and ringing. To remove this factor, tertiary SPI pins on the STM32 were used to set up two separate communications. While this did take up more real estate on the board, it did allow for the display and MAX86141 connections to operate at different clocking frequencies which allowed the refresh rate of the DT010ATFT to quadruple. 
+
+### Testing and Results
+
+ As of 9/26/2026, the board is still in manufacturing and will be programmed and validated upon arrival. 
 
 ## List of Major Components/Datasheets
 
