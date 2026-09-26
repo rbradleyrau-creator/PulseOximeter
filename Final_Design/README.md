@@ -1,21 +1,21 @@
 # Final Design
 <div align="center">
   <div style="overflow-x: auto; gap: 10px; padding-bottom: 10px; white-space: nowrap; display: inline-block; margin-right: 10px;">
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_Topside.png" width="400" height="180" />
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_3D_BottomSide.png" width="400" height="180" />
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_3D_Topside.png" width="400" height="240" />
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_3D_BottomSide.png" width="400" height="240" />
   </div>
   <br>
   
   <details>
     <summary><b>Click here to expand Copper Layers</b></summary>
     <br>
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_TopLayer.png" width="100%">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_TopLayer.png" width="100%">
     <hr>
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_InLayer1.png" alt="SInner Layer 1" width="100%">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_InLayer1.png" alt="SInner Layer 1" width="100%">
     <hr>
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_InLayer2.png" alt="Inner Layer 2" width="100%">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_InLayer2.png" alt="Inner Layer 2" width="100%">
     <hr>
-    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Milestone_2%3ASTM32U073KC_Development_Board/Drawings%2BSchematics/STM32U073_BottomLayer.png" alt="Bottom Layer" width="100%">
+    <img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/PulseOximeter_BottomLayer.png" alt="Bottom Layer" width="100%">
   </details>
 </div>
 
