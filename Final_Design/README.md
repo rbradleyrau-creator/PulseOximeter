@@ -70,6 +70,7 @@ Connectors
 
 Peripherals
 - [LCD Display - DT010ATFT](https://www.mouser.com/datasheet/3/3687/1/DT010ATFT-Rev1_1-Displaytech-Spec.pdf) <br>
+- [Battery - 3.7V Li-ion](https://cdn-shop.adafruit.com/product-files/1570/1570datasheet.pdf) <br>
 
 ***
 
