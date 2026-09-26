@@ -19,13 +19,19 @@
   </details>
 </div>
 
-### Project Overview & Features
+<br>
 
+<img src="https://github.com/rbradleyrau-creator/PulseOximeter/blob/main/Final_Design/Drawings%2BSchematics/High-Level Block Diagram.png" width="500" height="500" align="right"/>
+
+### Project Overview & Features
 The final design consists of two major parts:
   - A PCBA containing each critical component
-  - A 3D Modeled Enclosure to house the PCBA and other electronics
+  - A 3D Modeled Enclosure to house the PCBA 
 
-  The PCB for the pulse oximeter combines all of the previous features into a singular board, with the STC3115AIQT as an exception. The board consists of an STM32U073KC processor connected to three peripherals: the STC3115AIQT fuel gauge over I2C, the MAX86141 HR/Sp02 sensor over SPI1, and an FFC connector over SPI3 for interfacing with the DT010ATFT LCD display. In addition, the processor is also connected to USB 2.0 and has SWD, boot, and reset access via exposed plated through holes. Aside from those connections, the board operates on 3.3V which is provided by the LM3676 buck converter. This component is supplied with anywhere from 5.5V (USB) to 3.0V (Battery), all of which are valid voltages for the LM3676 and a large factor for why the part was chosen. The board also includes MCP73831T battery charger which charges the battery whilst the USB is connected. 
+The PCB for the pulse oximeter combines all of the previous features into a singular board, with the STC3115AIQT as an exception. The board consists of an STM32U073KC processor connected to three peripherals: the STC3115AIQT fuel gauge over I2C, the MAX86141 HR/Sp02 sensor over SPI1, and an FFC connector over SPI3 for interfacing with the DT010ATFT LCD display. In addition, the processor is also connected to USB 2.0 and has SWD, boot, and reset access via exposed plated through holes. 
+
+<br clear="right"/>
+  Aside from those connections, the board operates on 3.3Vwhich is provided by the LM3676 buck converter. This component is supplied with anywhere from 5.5V (USB) to 3.0V (Battery), all of which are valid voltages for the LM3676 and a large factor for why the part was chosen. The board also includes MCP73831T battery charger which charges the battery whilst the USB is connected. 
   <br><br>
   The enclosure that houses this PCB measures at 3cm wide, 6cm long, and approximately 2cm tall and is designed for 3D printing. It is separated into two pieces that contain four dowels for a secure connection, however, the strength of this connection varies from printer to printer. In addition, the enclosure provides four openings in its casing: one at the bottom for the LED and photodiodes of the sensor, one at the top for the LCD Display, one on the side for the ON/OFF button, and one in the rear for USB port access. 
 
